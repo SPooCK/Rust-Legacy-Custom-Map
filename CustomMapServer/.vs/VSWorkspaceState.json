@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug",
+    "\\bin\\Release",
+    "\\obj\\Debug",
+    "\\obj\\Release",
+    "\\obj\\Release\\TempPE",
+    "\\packages",
+    "\\packages\\Obfuscar.2.2.23",
+    "\\packages\\Obfuscar.2.2.23\\tools",
+    "\\packages\\Obfuscar.2.2.23\\tools\\Obfuscated"
+  ],
+  "SelectedNode": "\\bin",
+  "PreviewInSolutionExplorer": false
+}
