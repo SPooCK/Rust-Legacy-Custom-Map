@@ -1,0 +1,65 @@
+Renamed Types:
+
+[CustomMapClient]CustomMapClient.ClientMap -> [CustomMapClient] . 
+{
+	[CustomMapClient]CustomMapClient.ClientMap::GetLocation[0]( ) ->  
+	[CustomMapClient]CustomMapClient.ClientMap::Unserialize[1]( [mscorlib]System.String ) ->  
+	[CustomMapClient]CustomMapClient.ClientMap::Start[0]( ) ->  
+	[CustomMapClient]CustomMapClient.ClientMap::ClientReady[0]( ) ->  
+
+	[CustomMapClient]CustomMapClient.ClientMap::get_Name[0]( ) skipped:  external base class or interface
+	[CustomMapClient]CustomMapClient.ClientMap::get_Author[0]( ) skipped:  external base class or interface
+	[CustomMapClient]CustomMapClient.ClientMap::get_Version[0]( ) skipped:  external base class or interface
+	[CustomMapClient]CustomMapClient.ClientMap::Initialize[0]( ) skipped:  external base class or interface
+	[CustomMapClient]CustomMapClient.ClientMap::DeInitialize[0]( ) skipped:  external base class or interface
+	[CustomMapClient]CustomMapClient.ClientMap::.ctor[0]( ) skipped:  special name
+
+	CustomMapClient.ClientMap [CustomMapClient]CustomMapClient.ClientMap CustomMapClient.ClientMap::Instance ->  
+	UnityEngine.GameObject [CustomMapClient]UnityEngine.GameObject CustomMapClient.ClientMap::teObject ->  
+	System.Single [CustomMapClient]System.Single CustomMapClient.ClientMap::seaLevel ->  
+
+	System.String [CustomMapClient]System.String CustomMapClient.ClientMap::Name -> dropped
+	System.String [CustomMapClient]System.String CustomMapClient.ClientMap::Author -> dropped
+	System.Version [CustomMapClient]System.Version CustomMapClient.ClientMap::Version -> dropped
+}
+
+[CustomMapClient]CustomMapClient.TerrainGenerator -> [CustomMapClient] . 
+{
+	[CustomMapClient]CustomMapClient.TerrainGenerator::CleanObjects[0]( ) ->  
+	[CustomMapClient]CustomMapClient.TerrainGenerator::MoveObjects[0]( ) ->  
+	[CustomMapClient]CustomMapClient.TerrainGenerator::LoadRawMap[0]( ) ->  
+	[CustomMapClient]CustomMapClient.TerrainGenerator::SetSplat[0]( ) ->  
+	[CustomMapClient]CustomMapClient.TerrainGenerator::FixTrees[1]( [UnityEngine]UnityEngine.TerrainData ) ->  
+	[CustomMapClient]CustomMapClient.TerrainGenerator::InitMap[0]( ) ->  
+
+	[CustomMapClient]CustomMapClient.TerrainGenerator::Start[0]( ) skipped:  method rule in configuration
+	[CustomMapClient]CustomMapClient.TerrainGenerator::Update[0]( ) skipped:  method rule in configuration
+	[CustomMapClient]CustomMapClient.TerrainGenerator::.ctor[0]( ) skipped:  special name
+
+	UnityEngine.GameObject [CustomMapClient]UnityEngine.GameObject CustomMapClient.TerrainGenerator::teObject ->  
+	System.Collections.Generic.Dictionary`2<System.String,System.Single[]> [CustomMapClient]System.Collections.Generic.Dictionary`2<System.String,System.Single[]> CustomMapClient.TerrainGenerator::MapObjects ->  
+	System.Single [CustomMapClient]System.Single CustomMapClient.TerrainGenerator::seaLevel ->  
+	System.String [CustomMapClient]System.String CustomMapClient.TerrainGenerator::CompressMap ->  
+	System.Int32[] [CustomMapClient]System.Int32[] CustomMapClient.TerrainGenerator::TerrSize ->  
+	System.Single[0...,0...] [CustomMapClient]System.Single[0...,0...] CustomMapClient.TerrainGenerator::neMapData ->  
+	System.Boolean [CustomMapClient]System.Boolean CustomMapClient.TerrainGenerator::SettingSplat ->  
+	System.Int32 [CustomMapClient]System.Int32 CustomMapClient.TerrainGenerator::ySPL ->  
+	System.Single[0...,0...,0...] [CustomMapClient]System.Single[0...,0...,0...] CustomMapClient.TerrainGenerator::splatmapData ->  
+}
+
+[CustomMapClient]<PrivateImplementationDetails> -> [CustomMapClient] . 
+{
+	<PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 [CustomMapClient]<PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 <PrivateImplementationDetails>::99821414074B6AA52AA041EA3FB9C311DCB7F1EF ->  
+}
+
+[CustomMapClient]<PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 -> [CustomMapClient] . / 
+{
+}
+
+Skipped Types:
+
+Renamed Resources:
+
+
+Skipped Resources:
+
